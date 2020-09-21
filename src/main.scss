@@ -1,0 +1,21 @@
+// Your variable overrides
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto+Slab:wght@700&display=swap");
+
+@import './custom-vars.scss';
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Roboto Slab';
+}
+.modal-content{
+  border-radius: 10px !important;
+  padding: 30px 35px 30px 35px;
+  background-color: transparent !important;
+}
+
+.modal-content.success{
+
+  background-color: #7ed321 !important;
+}
